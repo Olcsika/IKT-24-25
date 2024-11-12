@@ -49,3 +49,11 @@ a{
 #tartalom p{
     color: white;
 }
+/*TELEFON----------------------------------------------*/
+@media only screen and (max-width: 600px) 
+{
+    .fejlec{
+        height: 20vh;
+        width: 100vw;
+    }
+}
