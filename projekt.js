@@ -11,3 +11,9 @@ function jelenlegiMenuPont(){
         }
     });
 }
+function hambi1()
+{
+    let linkek= document.getElementsByClassName("fejlec")
+    console.log(linkek)
+    linkek.style.display="block"
+}

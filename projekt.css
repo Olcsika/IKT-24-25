@@ -17,6 +17,7 @@ html{
     color: whitesmoke;
     position: absolute;
     left: 44%;
+    text-decoration: underline;
 
 }
 .fejlec{
@@ -107,11 +108,70 @@ a{
     padding: 0%;
     
 }
+#hambi{ 
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    display: none;
+}
 /*TELEFON----------------------------------------------*/
 @media only screen and (max-width: 600px) 
 {
     .fejlec{
-        height: 20vh;
+        height: 13vh;
         width: 100vw;
+       
     }
+    .opciok{
+        display: none;
+    }
+    .icon{
+        width: 50vw;
+        height: 50vh;
+    }
+    #hambi{
+        display: block;
+        width: 10vw;
+        height: 5vh;
+        top: 5%;
+        left: 5%;
+        position: absolute;
+    
+    }
+    #cim{
+        font-size: 10vw;
+        position: absolute;
+        left: 21%;
+        top: 0;
+    }
+    #tartalom{
+        width: 45vw;
+        font-size: 2.5vw;
+        line-height: 130%;
+        overflow: hidden;
+    }
+    #tartalom1{
+        width: 45vw;
+        font-size: 2.5vw;
+        line-height: 130%;
+        overflow: hidden;
+    }
+    #tartalom2{
+        width: 37.5vw;
+        font-size: 3.5vw;
+        line-height: 130%;
+        overflow: hidden;
+        left: 60%;
+    }
+} 
+
+/*MInden más*/
+@media only screen and (min-width: 600px) 
+{
+
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    
 }
