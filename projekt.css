@@ -12,6 +12,10 @@ html{
     margin: 0%;
 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
  #cim{
     text-align: center;
     color: whitesmoke;
@@ -63,7 +67,7 @@ html{
 }
 .fejlec{
     
-    background-color: goldenrod;
+    background-color: rgb(143, 143, 143);
     justify-items: center;
     width: 99.75vw;
     height: 10vh;
@@ -82,6 +86,7 @@ html{
     margin-top: 4vh;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    font-size: 1.6vw;
 }
 .opciok.aktivalva {
     color: black;             
@@ -123,25 +128,46 @@ a{
 }
 #tartalom2{
     top: 15%;
-    width: 10vw;
+    width: 15vw;
     height: 66vh;
-    left: 85%;
+    left: 79%;
     position: absolute;
     color: azure;
     border: solid black 0.15vw;
     border-radius: 2vw;
+
     overflow: hidden;
     
 }
 #tartalom,#tartalom1,#tartalom2 p{
-    color: white;
+
     padding: 1vw;
+    color: black;
+  
     
 }
+#linkYouTube{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+#linkInsta{
+    position: absolute;
+    top: 30%;
+    left: 6%; 
+}
+#linkW3{
+    position: absolute;
+    top: 30%;
+    left: 9%; 
+}
+#tartalom,#tartalom1,#tartalom2{
+   
+    background-color: rgba(255, 255, 255, 0.473);}
 #labLec{
     top: 90%;
     position: absolute;
-background-color: rgb(48, 48, 165);
+background-color: rgb(71, 71, 71);
     width: 100vw;
     height: 10vh;
     justify-content: center;
@@ -159,6 +185,10 @@ background-color: rgb(48, 48, 165);
 /*TELEFON----------------------------------------------*/
 @media only screen and (max-width: 600px) 
 {
+    body{
+        background-image: none !important;
+
+    }
     .fejlec{
         height: 13vh;
         width: 100vw;
@@ -205,15 +235,36 @@ background-color: rgb(48, 48, 165);
         overflow: hidden;
         left: 60%;
     }
+    #linkYouTube{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+    }
+    #linkInsta{
+        position: absolute;
+        top: 30%;
+        left: 14%; 
+    }
+    #linkW3{
+        position: absolute;
+        top: 30%;
+        left: 24%; 
+    }
+
 } 
 
 /*MInden más*/
 @media only screen and (min-width: 600px) 
 {
-
+    body{
+        background-size: cover !important;
+    }
 }
 
 @media only screen and (min-width: 1200px) 
 {
-    
+    body{
+        background-image: url(venom.png);
+        background-position: center calc(50% - 32%);
+    }
 }
