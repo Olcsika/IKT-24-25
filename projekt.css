@@ -251,6 +251,48 @@ background-color: rgb(71, 71, 71);
         top: 30%;
         left: 28%; 
     }
+    #kep1{
+        width: 20vw;
+        height: 10vh;
+        left: 75%;
+        top: 70%;
+        position: absolute;
+    
+    }
+    #kep2{
+        width: 20vw;
+        height: 10vh;
+        left: 75%;
+        top: 50%;
+        position: absolute;
+    
+    }
+    #kep3{
+        width: 40vw;
+        height: 24vh;
+        left: 2%;
+        top: 15%;
+        position: absolute;
+        border: 5px solid white;
+    
+    }
+    #kep4{
+        width: 40vw;
+        height: 24vh;
+        left: 58%;
+        top: 15%;
+        position: absolute;
+        border: 5px solid white;
+    
+    }
+    #kep5{
+        width: 40vw;
+        height: 40vh;
+        left: 2%;
+        top: 45%;
+        position: absolute;
+        border: 5px solid white;
+    }
 
 } 
 
@@ -341,5 +383,25 @@ background-color: rgb(71, 71, 71);
         background-position: center calc(50% - 32%);
         font-size: 1vw;
     }
+    #cim{
+        top: -5%;
+        font-size: 4vw;
+    }
+    #linkYouTube{
+        position: absolute;
+        top: 30%;
+        left: 3%;
+    }
+    #linkInsta{
+        position: absolute;
+        top: 30%;
+        left: 6%; 
+    }
+    #linkW3{
+        position: absolute;
+        top: 30%;
+        left: 9%; 
+    }
+
 
 }
