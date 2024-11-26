@@ -25,45 +25,46 @@ a{
 
 }
 #kep1{
-    width: 10vw;
-    height: 20vh;
-    left: 85%;
-    top: 64%;
+    width: 6vw;
+    height: 12vh;
+    left: 90%;
+    top: 70%;
     position: absolute;
 
 }
 #kep2{
-    width: 10vw;
-    height: 20vh;
-    left: 85%;
-    top: 38%;
+    width: 6vw;
+    height: 12vh;
+    left: 90%;
+    top: 50%;
     position: absolute;
 
 }
 #kep3{
     width: 40vw;
-    height: 20vh;
+    height: 24vh;
     left: 2%;
     top: 15%;
     position: absolute;
-    border: 5px solid black;
+    border: 5px solid white;
 
 }
 #kep4{
     width: 40vw;
-    height: 20vh;
+    height: 24vh;
     left: 58%;
     top: 15%;
     position: absolute;
-    border: 5px solid black;
+    border: 5px solid white;
+
 }
 #kep5{
-    width: 70vw;
-    height: 50vh;
+    width: 40vw;
+    height: 40vh;
     left: 2%;
-    top: 40%;
+    top: 45%;
     position: absolute;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 .fejlec{
     
@@ -257,14 +258,16 @@ background-color: rgb(71, 71, 71);
 @media only screen and (min-width: 600px) 
 {
     body{
-        background-size: cover !important;
+        background-color: rgb(107, 107, 107);
+        background-image: none !important;
+        font-size: 1.2vw;
     }
 }
 
 @media only screen and (min-width: 1200px) 
 {
     body{
-        background-image: url(venom.png);
+        background-image: url(venom.png) !important;
         background-position: center calc(50% - 32%);
     }
 }
